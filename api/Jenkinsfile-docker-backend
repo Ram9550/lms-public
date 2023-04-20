@@ -5,7 +5,7 @@ pipeline {
 
     environment {
 
-    DOCKERHUB_CREDENTIALS = credentials('dockeruserRam9550')
+    DOCKERHUB_CREDENTIALS = credentials('Ram9550')
      registry = "Ram9550/backend-lms"
         registryCredential = 'Ram9550'
         dockerImage = ''
