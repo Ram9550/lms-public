@@ -27,7 +27,7 @@ pipeline {
         }
         stage('Logging into dockerhub account') {
             steps {
-                sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR Ram9550 --password-stdin Ramanjaneyulu@12345'
+                sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR Ram9550 --password-stdin dckr_pat_zg7CI4YZoGbnnkIFZeHBnoIv2jI'
             }
         }
         stage('pushing the docker image into dockerhub') {
